@@ -7,7 +7,7 @@ trabalhando no momento.
 Quer visualizar eles? É só clicar nos links abaixo para conferir.
 
 <ul>
-    <li><a href="./projecto-android/">Projecto Android</a>
-    <li><a href="./projecto-carrossel/">Carrossel de Imagens</a>
-    <li><a href="./projecto-cordel/">Projecto Cordel</a>
+    <li><a href="./projecto-android/index.html">Projecto Android</a>
+    <li><a href="./projecto-carrossel/index.html">Carrossel de Imagens</a>
+    <li><a href="./projecto-cordel/index.html">Projecto Cordel</a>
 </ul>
