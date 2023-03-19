@@ -7,7 +7,7 @@ trabalhando no momento.
 Quer visualizar eles? É só clicar nos links abaixo para conferir.
 
 <ul>
-    <li><a href="./projecto-android/index.html">Projecto Android</a>
-    <li><a href="./projecto-carrossel/index.html">Carrossel de Imagens</a>
-    <li><a href="./projecto-cordel/index.html">Projecto Cordel</a>
+    <li><a href="https://graciomacuacua.github.io/projectos-web/projecto-android/index.html" target="_blank">Projecto Android</a>
+    <li><a href="https://graciomacuacua.github.io/projectos-web/projecto-carrossel/index.html" target="_blank">Carrossel de Imagens</a>
+    <li><a href="https://graciomacuacua.github.io/projectos-web/projecto-cordel/index.html" target="_blank">Projecto Cordel</a>
 </ul>
