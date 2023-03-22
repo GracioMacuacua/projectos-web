@@ -77,7 +77,7 @@ img {
     cursor: pointer;
 }
 
-.circulos:hover {
+.activo {
     background-color: gray;
     transition: .6s ease-in;
 }
