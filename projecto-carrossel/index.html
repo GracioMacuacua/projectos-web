@@ -33,7 +33,7 @@
         </main>
 
         <script>
-            let cslide = 1
+            let cslide = 0
             showSlide(cslide)
 
             function plusSlides(n) {
@@ -51,8 +51,8 @@
                 if(n > slides.length-1) {
                     cslide = 0
                 }
-                if(n < 1) {
-                    cslide = slides.length
+                if(n < 0) {
+                    cslide = slides.length-1
                 }
                 for(i = 0; i < slides.length; i++) {
                     slides[i].style.display = 'none'
