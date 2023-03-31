@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+:root {
+    --violeta-escuro: #695acd;
+    --violeta-claro: #695acdcc;
+    --cinza-esmanecido: rgb(224, 224, 224);
+    --cinza-avermelhado: rgba(250, 240, 240, 0.63);
+    --cinza-claro: rgba(203, 169, 233, 0.5);
+    --cinza: rgb(155, 153, 153);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.container {
+    border-radius: 10px;
+    color: white;
+}
+
+#painel-principal {
+    background-color:  var(--violeta-claro); 
+    border-radius: 30px;
+    margin: auto;
+    width: 400px;
+    height: 600px;         
+}
+
+#borda-geral {
+    border: 10px solid var(--violeta-escuro);
+    border-radius: 30px;
+    height: 580px;
+}
+
+#container-superior {
+    width: 360px;
+    height: 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+    font-size: 1em;
+    color: rgb(244, 244, 244);
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#tela {
+    width: 360px;
+    height: 80px;    
+    margin: 10px;   
+    border-radius: 10px;
+    background-color: var(--violeta-escuro);
+    text-align: right;
+}
+
+#painel-botoes {
+    width: 350px;
+    height: 413px;
+    margin-left: 10px; 
+    padding: 5px;   
+    background-color: var(--violeta-escuro);
+}
+
+#texto-superior {
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding: 2px 10px 0px 20px;
+}
+
+#texto-inferior {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.botoes {
+    width: 84.1px;
+    height: 79px;    
+    font-size: 1.3em;
+    text-align: center;
+    border: 0px solid white;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    background-color: var(--cinza-esmanecido);
+    color: var(--cinza);
+}
+
+.numeros {
+    background-color: white;
+}
+
+.botoes:hover {
+    background-color: var(--cinza-avermelhado);
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.botoes:active {
+    background-color: var(--cinza-claro);
+}
+
+.numeros {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+sup {
+    font-size: .8em;
+}
