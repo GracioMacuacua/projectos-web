@@ -41,10 +41,15 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
+    background: var(--cor-fundo);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.cabecalho.sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
 
 .logo {
@@ -79,6 +84,21 @@ section {
 
 .imagem-inicio img {
     width: 35vw;
+    animation: imagemFlutuante 4s ease-in-out infinite;
+}
+
+@keyframes imagemFlutuante {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2.4rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .conteudo-inicio h3 {
@@ -163,20 +183,16 @@ span {
     line-height: 1.2;
 }
 
-.conteudo-sobre h3 {
-    font-size: 2.6rem;
-}
-
 .conteudo-sobre p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
 
-.servicos h2 {
+.habilidades h2 {
     margin-bottom: 5rem;
 }
 
-.container-servicos {
+.container-habilidades {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +200,7 @@ span {
     gap: 2rem;
 }
 
-.container-servicos .caixa-servicos {
+.container-habilidades .caixa-habilidades {
     flex: 1 1 30rem;
     background: var(--seg-cor-fundo);
     padding: 3rem 2rem 4rem;
@@ -193,21 +209,21 @@ span {
     border: .2rem solid var(--cor-fundo);
 }
 
-.caixa-servicos i {
+.caixa-habilidades i {
     font-size: 7rem;
     color: var(--cor-principal);
 }
 
-.caixa-servicos h3 {
+.caixa-habilidades h3 {
     font-size: 2rem;
 }
 
-.caixa-servicos p {
+.caixa-habilidades p {
     font-size: 1.4rem;
     margin: 1rem 0 3rem;
 }
 
-.container-servicos .caixa-servicos:hover {
+.container-habilidades .caixa-habilidades:hover {
     border-color: var(--cor-principal);
     transform: scale(1.02);
 }
