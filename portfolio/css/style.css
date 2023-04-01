@@ -266,7 +266,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--cor-principal));
+    background: linear-gradient(rgba(0, 0, 0, 0.582), var(--cor-principal));
     display: flex;
     justify-content: center;
     align-items: center;
